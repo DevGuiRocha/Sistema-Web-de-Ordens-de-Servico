@@ -1,0 +1,272 @@
+body{
+	font-family: 'Arial', serif;
+	font-size: 14px;
+}
+
+a{
+	text-decoration:none;
+}
+
+#buttonAbre, #buttonFecha{
+	position: relative;
+	top:-670px;
+	left: 910px;
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-size: 32px;
+}
+
+select{
+	width: 390px;
+}
+
+#texto {
+  text-align: left;
+  font-size: 14px;
+  color: black;
+}
+
+#att, #cargo {
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  position: relative;
+  left: 894px; 
+}
+
+div.criar{
+  background-color: #E8E8E8;
+  width: 500px;
+  height:40px;
+  font-size: 18px;
+  opacity:0.5;
+  text-align: center;
+  position:relative;
+  margin-left: 700px;
+}
+
+.criar:hover
+{
+        opacity:1;
+}
+
+div.top{
+  background-color: #5fa49f;
+  width: auto;
+  height:110px;
+  font-weight: 300;
+}
+
+div.footer{
+	text-align: center;
+    width:1920px;
+    height:70px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:#5fa49f;
+  }
+
+#top{
+  position: relative;
+  top: -100px;
+  left: 30px;
+  width: auto;
+  height: 70px;
+}
+
+#form{
+  position: absolute;
+  top: 168px;
+  right: 40px;
+  width: auto;
+  height: 60px;
+  opacity: 0.5;
+}
+
+#add{
+    margin-top: 8px;
+    position: absolute;
+    margin-left: 8px;
+	
+	-moz-box-shadow: -2px 2px 0px 0px #000000;
+	-webkit-box-shadow: -2px 2px 0px 0px #000000;
+	box-shadow: -1px 1px 0px 0px #000000;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #f0f0f0));
+	background:-moz-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-webkit-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-o-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-ms-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:linear-gradient(to bottom, #f0f0f0 5%, #f0f0f0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#f0f0f0',GradientType=0);
+	background-color:#f0f0f0;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:10px 35px;
+	text-decoration:none;
+
+
+}
+
+#adicionar{
+margin-top: -26px;
+	position: absolute;
+	margin-left: 16px;
+	
+	-moz-box-shadow: -2px 2px 0px 0px #000000;
+	-webkit-box-shadow: -2px 2px 0px 0px #000000;
+	box-shadow: -1px 1px 0px 0px #000000;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #f0f0f0));
+	background:-moz-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-webkit-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-o-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-ms-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:linear-gradient(to bottom, #f0f0f0 5%, #f0f0f0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#f0f0f0',GradientType=0);
+	background-color:#f0f0f0;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:10px 35px;
+	text-decoration:none;
+
+
+}
+
+
+
+
+
+#voltar{
+	position: relative;
+	top: -69px;
+	left: 990px;
+	
+	-moz-box-shadow: -2px 2px 0px 0px #000000;
+	-webkit-box-shadow: -2px 2px 0px 0px #000000;
+	box-shadow: -1px 1px 0px 0px #000000;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #f0f0f0));
+	background:-moz-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-webkit-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-o-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-ms-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:linear-gradient(to bottom, #f0f0f0 5%, #f0f0f0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#f0f0f0',GradientType=0);
+	background-color:#f0f0f0;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:10px 35px;
+	text-decoration:none;
+
+	
+}
+
+#voltar2{
+	position: relative;
+    top: 8px;
+    left: 156px;
+	
+	-moz-box-shadow: -2px 2px 0px 0px #000000;
+	-webkit-box-shadow: -2px 2px 0px 0px #000000;
+	box-shadow: -1px 1px 0px 0px #000000;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #f0f0f0));
+	background:-moz-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-webkit-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-o-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:-ms-linear-gradient(top, #f0f0f0 5%, #f0f0f0 100%);
+	background:linear-gradient(to bottom, #f0f0f0 5%, #f0f0f0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#f0f0f0',GradientType=0);
+	background-color:#f0f0f0;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:10px 35px;
+	text-decoration:none;
+
+	
+}
+
+input, button {
+	padding: 5px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+textarea {
+   
+    width: 800px;
+	height: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+
+#formlogin{
+	font-family: 'Arial', serif;
+	font-size: 22px;
+	margin-left: 800px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#entrar{
+  padding: 15px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  position:relative;
+  left: 90px;
+}
+
+#user{
+  position:relative;
+  left: 1650px;
+  top:-50px;
+}
+
+#enc{
+	width: 132px;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 23px;
+}
+
+#resp{
+	width: 132px;
+	margin-left: 173px;
+	margin-top: -26px;
+	
+}

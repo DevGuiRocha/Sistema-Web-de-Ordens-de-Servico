@@ -1,0 +1,116 @@
+select{
+	width: 394px;
+}
+
+
+#att, #cargo {
+  font-size: 14px;
+  color: black;
+  position: relative;
+  left: 450px; 
+  	text-align: center;
+
+}
+
+#top{
+  position: relative;
+  top: -100px;
+  left: 30px;
+  width: auto;
+  height: 70px;
+}
+
+#table {
+	width:900px;
+    background-color: transparent;
+    margin-left: -102px;
+	text-align:center;
+}
+
+th{
+	text-align:center;
+}
+
+
+#sub{
+	    margin-left: 196px;
+}
+
+#rodape{
+	text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 38px;
+    margin-left: -78px;
+    text-transform: uppercase;
+}
+
+#form{
+  position: absolute;
+  top: 150px;
+  right: -500px;
+  width: auto;
+  height: 60px;
+  opacity: 0.5;
+}
+
+
+
+#salvar,#limpar,#voltar{
+	position: relative;
+	top:0px;
+	left: 750px;
+	
+}
+
+input {
+	padding: 5px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+textarea {
+   
+    width: 800px;
+	height: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+
+#formlogin {
+    font-family: 'Arial', serif;
+    font-size: 16px;
+
+	color: white;
+}
+
+#entrar{
+  padding: 15px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  position:relative;
+  left: 90px;
+}
+
+#user{
+  position:relative;
+  left: 1650px;
+  top:-50px;
+  font-size: 14px;
+}
+
+a{
+	color:white;
+}
+
+a, a:hover {
+    color: white;
+}	
+
+#link{
+    font-weight: bold;
+}
+
