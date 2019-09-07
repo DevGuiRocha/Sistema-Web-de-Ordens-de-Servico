@@ -10,7 +10,7 @@
   <link href="css/style.css" rel="stylesheet" media="screen">
   <link href="color/default.css" rel="stylesheet" media="screen">
   <link rel="stylesheet" type="text/css" href="css/form.css">
-  <link rel="icon" type="img/png" href="img/icons/icon-protocolo.png"/>
+  <link rel="icon" type="img/png" href="img/icons/icon-protocolo.ico"/>
 
 
   <script src="js/modernizr.custom.js"></script>
@@ -183,8 +183,6 @@ $conexao -> close ();
             <p id="sub">Veja aqui as C.I's enviadas recentemente</p></br>
 		<body>	    
 
-    </html>
-
     <?php
     include("mysql_conect.php");
 	
@@ -352,17 +350,6 @@ $conexao -> close ();
         </div> </br>
 	
 	 </td>
-	</tr>
-
-	<tr>
-	<td>   </td>
-	<td> (*) Favor anexar apenas PDF! </td>
-	</tr>
-	
-	<tr>
-	<td> Anexar arquivo: </td>
-	<td><input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-	<input name="userfile" type="file" id="userfile"></td>
 	</tr>
 
 	
