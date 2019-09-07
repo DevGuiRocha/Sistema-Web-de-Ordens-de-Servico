@@ -12,7 +12,11 @@
 <!DOCTYPE html>
 <html lang = "br">
 
+<head>
 <title> Visualização</title>
+
+<link rel="icon" type="img/png" href="icons/icon-protocolo.ico"/>
+</head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" type="text/css" href="../css/form2.css">
@@ -190,6 +194,7 @@ el.style.display = '';
     <head>
         <title>CKEditor</title>
         <meta charset="utf-8" />
+		<link rel="icon" type="img/png" href="img/icons/icon-protocolo.png"/>
     </head>
     <body>
 
