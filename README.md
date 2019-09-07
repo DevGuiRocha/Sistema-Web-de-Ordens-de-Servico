@@ -5,3 +5,5 @@ Um sistema web para registro de ordens de serviço de determinada empresa feito 
 Sistema atualmente se encontra na versão 1.1.0
 
 Feito poucas mudanças apenas para retirar algumas funcionalidades desnecessárias e a adição de poucas novas para melhoras a performance do sistema como um todo
+
+O arquivo .sql possui as tabelas utilizadas no sistema juntamente com as colunas utilizadas.
