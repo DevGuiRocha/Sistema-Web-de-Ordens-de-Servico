@@ -14,6 +14,8 @@
 
 <title> Visualização</title>
 
+<link rel="icon" type="img/png" href="icons/icon-protocolo.ico"/>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" type="text/css" href="../css/form2.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
