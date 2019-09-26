@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 07-Set-2019 às 04:09
+-- Generation Time: 26-Set-2019 às 22:07
 -- Versão do servidor: 10.1.37-MariaDB
 -- versão do PHP: 7.3.0
 
@@ -41,6 +41,13 @@ CREATE TABLE `criar` (
   `Status` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Extraindo dados da tabela `criar`
+--
+
+INSERT INTO `criar` (`ID`, `Num_ci`, `Funcao_Setor_D`, `De`, `Funcao_Setor_P`, `Para`, `Data`, `Assunto`, `CI`, `Status`) VALUES
+(1, 1, 'Administrador', 'Administrador', 'COESN', 'Joao Guilherme de Oliveira Rocha', '2019-09-06', 'TESTE', '<p>TESTETESTETESTETESTETESTE</p>\r\n\r\n<p>TESTETESTETESTE</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>TESTETESTE</p>\r\n', 'Fechada');
+
 -- --------------------------------------------------------
 
 --
@@ -54,6 +61,28 @@ CREATE TABLE `usuario` (
   `Nome` text NOT NULL,
   `Funcao_Setor` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `usuario`
+--
+
+INSERT INTO `usuario` (`ID`, `Login`, `Senha`, `Nome`, `Funcao_Setor`) VALUES
+(1, 'admin', 'admin', 'Administrador', 'Administrador'),
+(2, 'Guilherme', '1234', 'Joao Guilherme', 'Administrativo'),
+(3, 'Adroaldo', '1234', 'Adroaldo Olinda', 'Administrativo'),
+(4, 'Klyce', '1234', 'Ana Klyce', 'Administrativo'),
+(5, 'Raquel', '1234', 'Ana Raquel', 'Administrativo'),
+(6, 'Claudio', '1234', 'Claudio Marcos', 'Administrativo'),
+(7, 'Dedson', '1234', 'Dedson Pinheiro', 'Financeiro'),
+(8, 'Mardonio', '1234', 'Francisco Mardonio', 'Financeiro'),
+(9, 'Maryana', '1234', 'Maryana Correia', 'Financeiro'),
+(10, 'Barreto', '1234', 'Jose Barreto', 'Financeiro'),
+(11, 'Romeu', '1234', 'Julio Romeu', 'Financeiro'),
+(12, 'Wylkerson', '1234', 'David Wylkerson', 'Operacional'),
+(13, 'Joelma', '1234', 'Joelma dos Santos', 'Operacional'),
+(14, 'Rafael', '1234', 'Rafael Menezes', 'Operacional'),
+(15, 'Gardenia', '1234', 'Gardenia Mendes', 'Operacional'),
+(16, 'Valter', '1234', 'Joao Valter', 'Operacional');
 
 --
 -- Indexes for dumped tables
@@ -79,13 +108,13 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT for table `criar`
 --
 ALTER TABLE `criar`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
